@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "map-images-app",
+    "slug": "map-images-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "mapimagesapp",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {},
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Приложению нужен доступ к фотографиям, чтобы прикреплять изображения к маркерам."
+        }
+      ]
+    ]
+  }
+}
