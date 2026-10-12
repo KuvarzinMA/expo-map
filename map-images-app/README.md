@@ -6,7 +6,8 @@ React Native + Expo Router + TypeScript. Пользователь добавля
 
 ```bash
 npm install
-npx expo install --fix   # выровняет версии пакетов под SDK 52
+npx expo install --fix
+npm install expo-asset
 npx expo start
 ```
 
